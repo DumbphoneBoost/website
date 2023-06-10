@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DumbphoneBridge - Connect with Your Favorite Apps</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+        }
+
+        nav {
+            text-align: right;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        section {
+            padding: 80px 0;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        section p {
+            color: #777;
+            margin-bottom: 30px;
+        }
+
+        #hero {
+            background-color: #333;
+            color: #fff;
+        }
+
+        #hero .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 120px 20px;
+        }
+
+        #hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        #hero .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f08080;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        #about {
+            background-color: #f5f5f5;
+        }
+
+        #features .feature {
+            display: inline-block;
+            text-align: left;
+            width: 30%;
+            padding: 20px;
+            margin-bottom: 30px;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+
+        #features .feature img {
+            max-width: 80px;
+            margin-bottom: 10px;
+        }
+
+        form input[type="email"],
+        form button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        form input[type="email"] {
+            width: 70%;
+            margin-bottom: 10px;
+        }
+
+        form button {
+            background-color: #f08080;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* Responsive layout */
+        @media only screen and (max-width: 600px) {
+            #hero .hero-content {
+                padding: 80px 20px;
+            }
+
+            #features .feature {
+                width: 100%;
+            }
+
+            form input[type="email"] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>DumbphoneBridge</h1>
+            <p>Connect with your favorite apps using your dumbphone</p>
+            <a href="#waitlist" class="cta-button">Join the Waitlist</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About DumbphoneBridge</h2>
+            <p>DumbphoneBridge is a revolutionary service that allows users with basic dumbphones to interact with
+                smartphone apps via text messages. Stay connected and enjoy the benefits of your favorite apps, even
+                with a simple device.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <img src="images/feature-1.png" alt="Feature 1">
+                <h3>Text-to-App Interaction</h3>
+                <p>Send text messages to a custom number and access app features instantly.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature-2.png" alt="Feature 2">
+                <h3>Seamless Integration</h3>
+                <p>DumbphoneBridge seamlessly integrates with popular apps, ensuring a smooth user experience.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature-3.png" alt="Feature 3">
+                <h3>Stay Connected</h3>
+                <p>Stay connected with your friends and family using your basic dumbphone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="waitlist">
+        <div class="container">
+            <h2>Join the Waitlist</h2>
+            <p>Be the first to know when DumbphoneBridge becomes available.</p>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit">Join Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to us.</p>
+            <p>Email: info@dumbphonebridge.com</p>
+            <p>Phone: +1 123-456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 DumbphoneBridge. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

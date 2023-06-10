@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DumbphoneBridge</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    #header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    #content {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #555;
+    }
+
+    .highlight {
+      color: #333;
+      font-weight: bold;
+    }
+
+    #waitlist-form {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    #waitlist-input {
+      width: 80%;
+      height: 40px;
+      padding: 0 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    #waitlist-submit {
+      width: 120px;
+      height: 40px;
+      margin-top: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* Media Query for Mobile */
+    @media only screen and (max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      #waitlist-input {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <h1>DumbphoneBridge</h1>
+  </div>
+
+  <div id="content">
+    <h2>Connect with Your Favorite Apps using DumbphoneBridge</h2>
+
+    <p>Experience the power of smartphone apps on your dumbphone.</p>
+    <p>DumbphoneBridge allows you to send text messages to a custom number and interact with popular apps right from your beloved dumbphone. Join our waitlist today!</p>
+
+    <h3>Features:</h3>
+    <ul>
+      <li>Seamless integration with your dumbphone</li>
+      <li>Text-based interaction with a variety of popular smartphone apps</li>
+      <li>Effortless setup and easy-to-use interface</li>
+      <li>Open Source</li>
+    </ul>
+
+    <form id="waitlist-form" action="#" method="POST">
+      <input type="email" id="waitlist-input" name="email" placeholder="Enter your email address" required>
+      <br>
+      <input type="submit" id="waitlist-submit" value="Join Waitlist">
+    </form>
+  </div>
+</body>
+
+</html>
