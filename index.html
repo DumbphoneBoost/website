@@ -5,11 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DumbphoneBoost</title>
-
-    <!-- <link rel="shortcut icon" type="image/x-icon"
-        href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🛶&lt;/text&gt;&lt;/svg&gt;"> -->
     <link rel="icon" href="images/mobile-phone.svg">
-
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
@@ -87,8 +83,9 @@
                     <img src="images/shape-1.png" alt="Decorative figure."
                         class="absolute md:block hidden left-0 h-[4.5rem] w-[4.5rem] bottom-0 -translate-x-full ml-3">
                     <form method="post"
-                        action="https://script.google.com/macros/s/AKfycbw6WCC9psCmMSeVgb6wSAh2QvrXFGv9dICOCLypE5jI86DRYmlndnqA0nGvWfILgHWsbA/exec"
-                        class="flex md:flex-row flex-col w-full h-full justify-center items-stretch space-y-5 md:space-y-0  md:space-x-5">
+                        action="https://script.google.com/macros/s/AKfycbwvc61I_qZp5LDEFqPnCVDBf1kCsXw8GzAKi_ChgWlkJzUEAxB5cV5QwO0xIZPfKVlv/exec"
+                        class="flex flex-col w-full h-full justify-center items-stretch space-y-5 md:space-y-0 md:space-x-0">
+                        <!-- Email Input -->
                         <div class="relative w-full h-full">
                             <div
                                 class="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0 z-10">
@@ -97,7 +94,19 @@
                                 class="border-[3px] w-full relative z-20 border-gray-900 placeholder-gray-600 text-lg font-medium focus:outline-none py-3.5 px-6 rounded"
                                 placeholder="Email Address" required>
                         </div>
-                        <div class="relative w-auto flex-shrink-0 h-full group">
+                        <!-- Checkbox -->
+                        <div class="relative w-full h-full flex items-center p-0 md:p-2">
+                            <input type="checkbox" name="Beta" class="h-full w-auto" checked id="beta" value="1" />
+                            <label for="beta" class="ml-3">Sign me up for the beta</label>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="relative w-full h-full flex items-center p-0 md:p-2">
+                            <input type="checkbox" name="Newsletter" class="h-full w-auto" id="newsletter" checked value="1" />
+                            <label for="newsletter" class="ml-3">Subscribe to the newsletter for progress
+                                updates</label>
+                        </div>
+                        <!-- Submit Button -->
+                        <div class="relative w-full h-full group">
                             <div
                                 class="w-full h-full rounded bg-gray-800 translate-y-1 translate-x-1 absolute inset-0 z-10">
                             </div>
